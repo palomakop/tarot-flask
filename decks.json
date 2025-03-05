@@ -1,0 +1,814 @@
+{
+  "Rider-Waite-Smith": {
+    "totalCards": 78,
+    "suits": [
+      {
+        "name": "Major Arcana",
+        "meaning": "Major life themes and lessons",
+        "element": null
+      },
+      {
+        "name": "Cups",
+        "meaning": "Emotions, relationships, connections",
+        "element": "Water"
+      },
+      {
+        "name": "Pentacles",
+        "meaning": "Material aspects, career, financial matters",
+        "element": "Earth"
+      },
+      {
+        "name": "Swords",
+        "meaning": "Thoughts, communication, conflicts",
+        "element": "Air"
+      },
+      {
+        "name": "Wands",
+        "meaning": "Inspiration, creativity, action",
+        "element": "Fire"
+      }
+    ],
+    "cards": [
+      {
+        "title": "0. The Fool",
+        "suit": "Major Arcana",
+        "suitIndex": "0",
+        "description": "A young man standing at the edge of a cliff, looking optimistic",
+        "element": "Air",
+        "uprightMeaning": "Innocence, new beginnings",
+        "reversedMeaning": "Recklessness, naiveté",
+        "filename": "arcana0"
+      },
+      {
+        "title": "I. The Magician",
+        "suit": "Major Arcana",
+        "suitIndex": "1",
+        "description": "A figure standing before a table with symbols of the four suits, pointing one hand skyward and the other downward",
+        "element": "Air",
+        "uprightMeaning": "Skill, manifestation",
+        "reversedMeaning": "Manipulation, poor planning",
+        "filename": "arcana1"
+      },
+      {
+        "title": "II. The High Priestess",
+        "suit": "Major Arcana",
+        "suitIndex": "2",
+        "description": "A woman sitting with a scroll in her lap, between two pillars",
+        "element": "Water",
+        "uprightMeaning": "Intuition, unconscious knowledge",
+        "reversedMeaning": "Secrets, disconnection from intuition",
+        "filename": "arcana2"
+      },
+      {
+        "title": "III. The Empress",
+        "suit": "Major Arcana",
+        "suitIndex": "3",
+        "description": "A woman sitting on a throne surrounded by lush greenery, symbolizing fertility",
+        "element": "Earth",
+        "uprightMeaning": "Abundance, nurturing",
+        "reversedMeaning": "Neglect, dependence",
+        "filename": "arcana3"
+      },
+      {
+        "title": "IV. The Emperor",
+        "suit": "Major Arcana",
+        "suitIndex": "4",
+        "description": "A man seated on a stone throne, holding a scepter and an orb",
+        "element": "Fire",
+        "uprightMeaning": "Authority, structure",
+        "reversedMeaning": "Domination, inflexibility",
+        "filename": "arcana4"
+      },
+      {
+        "title": "V. The Hierophant",
+        "suit": "Major Arcana",
+        "suitIndex": "5",
+        "description": "A holy man sitting before two acolytes, holding a staff",
+        "element": "Earth",
+        "uprightMeaning": "Tradition, conformity",
+        "reversedMeaning": "Challenging status quo, freedom",
+        "filename": "arcana5"
+      },
+      {
+        "title": "VI. The Lovers",
+        "suit": "Major Arcana",
+        "suitIndex": "6",
+        "description": "A nude man and a woman standing beneath an angel",
+        "element": "Air",
+        "uprightMeaning": "Love, harmony",
+        "reversedMeaning": "Separation, imbalance",
+        "filename": "arcana6"
+      },
+      {
+        "title": "VII. The Chariot",
+        "suit": "Major Arcana",
+        "suitIndex": "7",
+        "description": "A charioteer driving two sphinxes",
+        "element": "Water",
+        "uprightMeaning": "Control, victory",
+        "reversedMeaning": "Lack of control, opposition",
+        "filename": "arcana7"
+      },
+      {
+        "title": "VIII. Strength",
+        "suit": "Major Arcana",
+        "suitIndex": "8",
+        "description": "A woman gently holding a lion's mouth",
+        "element": "Fire",
+        "uprightMeaning": "Strength, courage",
+        "reversedMeaning": "Self-doubt, weakness",
+        "filename": "arcana8"
+      },
+      {
+        "title": "IX. The Hermit",
+        "suit": "Major Arcana",
+        "suitIndex": "9",
+        "description": "An old man walking with a staff, holding a lantern",
+        "element": "Earth",
+        "uprightMeaning": "Reflection, introspection",
+        "reversedMeaning": "Isolation, loneliness",
+        "filename": "arcana9"
+      },
+      {
+        "title": "X. Wheel of Fortune",
+        "suit": "Major Arcana",
+        "suitIndex": "10",
+        "description": "A wheel of symbols surrounded by mythical creatures",
+        "element": "Fire",
+        "uprightMeaning": "Change, cycles",
+        "reversedMeaning": "Resistance to change, breaking cycles",
+        "filename": "arcana10"
+      },
+      {
+        "title": "XI. Justice",
+        "suit": "Major Arcana",
+        "suitIndex": "11",
+        "description": "A crowned figure on a throne holding a sword and scales",
+        "element": "Air",
+        "uprightMeaning": "Fairness, truth",
+        "reversedMeaning": "Dishonesty, imbalance",
+        "filename": "arcana11"
+      },
+      {
+        "title": "XII. The Hanged Man",
+        "suit": "Major Arcana",
+        "suitIndex": "12",
+        "description": "A man hanging upside down from a tree from a rope around one ankle",
+        "element": "Water",
+        "uprightMeaning": "Letting go, new perspectives",
+        "reversedMeaning": "Delays, resistance",
+        "filename": "arcana12"
+      },
+      {
+        "title": "XIII. Death",
+        "suit": "Major Arcana",
+        "suitIndex": "13",
+        "description": "A skeletal figure in knight's armor, riding a horse",
+        "element": "Water",
+        "uprightMeaning": "Transformation, endings",
+        "reversedMeaning": "Resistance to change, fear",
+        "filename": "arcana13"
+      },
+      {
+        "title": "XIV. Temperance",
+        "suit": "Major Arcana",
+        "suitIndex": "14",
+        "description": "An angel pouring water between two cups",
+        "element": "Fire",
+        "uprightMeaning": "Balance, moderation",
+        "reversedMeaning": "Imbalance, excess",
+        "filename": "arcana14"
+      },
+      {
+        "title": "XV. The Devil",
+        "suit": "Major Arcana",
+        "suitIndex": "15",
+        "description": "A horned devil with bat wings and hairy, clawed feet, and two smaller figures in chains below",
+        "element": "Earth",
+        "uprightMeaning": "Bondage, materialism",
+        "reversedMeaning": "Freedom, release",
+        "filename": "arcana15"
+      },
+      {
+        "title": "XVI. The Tower",
+        "suit": "Major Arcana",
+        "suitIndex": "16",
+        "description": "A tower being struck by lightning, with people falling",
+        "element": "Fire",
+        "uprightMeaning": "Upheaval, revelation",
+        "reversedMeaning": "Avoidance of disaster, fear",
+        "filename": "arcana16"
+      },
+      {
+        "title": "XVII. The Star",
+        "suit": "Major Arcana",
+        "suitIndex": "17",
+        "description": "A woman pouring water from two pitchers, below a starry sky",
+        "element": "Air",
+        "uprightMeaning": "Hope, inspiration",
+        "reversedMeaning": "Despair, disconnection",
+        "filename": "arcana17"
+      },
+      {
+        "title": "XVIII. The Moon",
+        "suit": "Major Arcana",
+        "suitIndex": "18",
+        "description": "A moon with a face, with two dogs howling, and a lobster emerging from a pond",
+        "element": "Water",
+        "uprightMeaning": "Illusion, fear",
+        "reversedMeaning": "Clarity, confusion",
+        "filename": "arcana18"
+      },
+      {
+        "title": "XIX. The Sun",
+        "suit": "Major Arcana",
+        "suitIndex": "19",
+        "description": "A smiling child riding a horse under a sun",
+        "element": "Fire",
+        "uprightMeaning": "Joy, success",
+        "reversedMeaning": "Negativity, sadness",
+        "filename": "arcana19"
+      },
+      {
+        "title": "XX. Judgement",
+        "suit": "Major Arcana",
+        "suitIndex": "20",
+        "description": "An angelic being blowing a trumpet, awakening the dead",
+        "element": "Fire",
+        "uprightMeaning": "Rebirth, transformation",
+        "reversedMeaning": "Doubt, stagnation",
+        "filename": "arcana20"
+      },
+      {
+        "title": "XXI. The World",
+        "suit": "Major Arcana",
+        "suitIndex": "21",
+        "description": "A dancing figure surrounded by a laurel wreath",
+        "element": "Earth",
+        "uprightMeaning": "Completion, accomplishment",
+        "reversedMeaning": "Lack of closure, delay",
+        "filename": "arcana21"
+      },
+      {
+        "title": "Ace of Cups",
+        "suit": "Cups",
+        "suitIndex": "1",
+        "description": "A chalice overflowing with water, symbolizing emotion and intuition",
+        "element": "Water",
+        "uprightMeaning": "Love, new feelings",
+        "reversedMeaning": "Emotional loss, emptiness",
+        "filename": "cups1"
+      },
+      {
+        "title": "Two of Cups",
+        "suit": "Cups",
+        "suitIndex": "2",
+        "description": "Two figures exchanging cups, representing partnership and connection",
+        "element": "Water",
+        "uprightMeaning": "Partnership, unity",
+        "reversedMeaning": "Imbalance, disconnection",
+        "filename": "cups2"
+      },
+      {
+        "title": "Three of Cups",
+        "suit": "Cups",
+        "suitIndex": "3",
+        "description": "Three women raising cups in celebration, symbolizing friendship",
+        "element": "Water",
+        "uprightMeaning": "Celebration, friendship",
+        "reversedMeaning": "Overindulgence, tension",
+        "filename": "cups3"
+      },
+      {
+        "title": "Four of Cups",
+        "suit": "Cups",
+        "suitIndex": "4",
+        "description": "A person sitting under a tree with three cups before them; a fourth cup is being offered by a floating hand",
+        "element": "Water",
+        "uprightMeaning": "Contemplation, apathy",
+        "reversedMeaning": "New opportunities, acceptance",
+        "filename": "cups4"
+      },
+      {
+        "title": "Five of Cups",
+        "suit": "Cups",
+        "suitIndex": "5",
+        "description": "A person in a black mourning cloak, head bowed, with three spilled cups before them and two still upright",
+        "element": "Water",
+        "uprightMeaning": "Loss, grief",
+        "reversedMeaning": "Acceptance, moving on",
+        "filename": "cups5"
+      },
+      {
+        "title": "Six of Cups",
+        "suit": "Cups",
+        "suitIndex": "6",
+        "description": "Two children exchanging cups filled with flowers, symbolizing nostalgia and innocence",
+        "element": "Water",
+        "uprightMeaning": "Nostalgia, childhood",
+        "reversedMeaning": "Stuck in the past, naiveté",
+        "filename": "cups6"
+      },
+      {
+        "title": "Seven of Cups",
+        "suit": "Cups",
+        "suitIndex": "7",
+        "description": "A figure confronted with various choices represented by cups containing different items",
+        "element": "Water",
+        "uprightMeaning": "Choices, illusion",
+        "reversedMeaning": "Clarity, making decisions",
+        "filename": "cups7"
+      },
+      {
+        "title": "Eight of Cups",
+        "suit": "Cups",
+        "suitIndex": "8",
+        "description": "A person walks away from a stack of cups, indicating a quest for deeper meaning",
+        "element": "Water",
+        "uprightMeaning": "Abandonment, withdrawal",
+        "reversedMeaning": "Fear of moving on, stagnation",
+        "filename": "cups8"
+      },
+      {
+        "title": "Nine of Cups",
+        "suit": "Cups",
+        "suitIndex": "9",
+        "description": "A person sitting with nine filled cups, symbolizing satisfaction",
+        "element": "Water",
+        "uprightMeaning": "Contentment, satisfaction",
+        "reversedMeaning": "Greed, dissatisfaction",
+        "filename": "cups9"
+      },
+      {
+        "title": "Ten of Cups",
+        "suit": "Cups",
+        "suitIndex": "10",
+        "description": "A family beneath a rainbow filled with cups, symbolizing harmony and happiness",
+        "element": "Water",
+        "uprightMeaning": "Harmony, fulfillment",
+        "reversedMeaning": "Discontent, broken relationships",
+        "filename": "cups10"
+      },
+      {
+        "title": "Page of Cups",
+        "suit": "Cups",
+        "suitIndex": "11",
+        "description": "A youthful figure holding a cup from which a fish is emerging",
+        "element": "Water",
+        "uprightMeaning": "Creativity, new ideas",
+        "reversedMeaning": "Emotional immaturity, insecurity",
+        "filename": "cups11"
+      },
+      {
+        "title": "Knight of Cups",
+        "suit": "Cups",
+        "suitIndex": "12",
+        "description": "A knight riding a horse, carrying a cup, representing romance and charm",
+        "element": "Water",
+        "uprightMeaning": "Romantic, idealistic",
+        "reversedMeaning": "Moodiness, unrealistic expectations",
+        "filename": "cups12"
+      },
+      {
+        "title": "Queen of Cups",
+        "suit": "Cups",
+        "suitIndex": "13",
+        "description": "A queen holding an elaborate covered cup, symbolizing intuition and emotional depth",
+        "element": "Water",
+        "uprightMeaning": "Compassion, calm",
+        "reversedMeaning": "Codependency, emotional insecurity",
+        "filename": "cups13"
+      },
+      {
+        "title": "King of Cups",
+        "suit": "Cups",
+        "suitIndex": "14",
+        "description": "A king sitting on a throne with a cup, representing balance of emotions and diplomacy",
+        "element": "Water",
+        "uprightMeaning": "Balance, wisdom",
+        "reversedMeaning": "Emotional manipulation, volatility",
+        "filename": "cups14"
+      },
+      {
+        "title": "Ace of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "1",
+        "description": "A hand emerging from a cloud holding a pentacle, symbolizing material and financial opportunity",
+        "element": "Earth",
+        "uprightMeaning": "Opportunity, prosperity",
+        "reversedMeaning": "Lost opportunities, financial loss",
+        "filename": "pentacles1"
+      },
+      {
+        "title": "Two of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "2",
+        "description": "A person juggling two pentacles, with an infinity symbol around them",
+        "element": "Earth",
+        "uprightMeaning": "Balance, adaptability",
+        "reversedMeaning": "Disorganization, overcommitment",
+        "filename": "pentacles2"
+      },
+      {
+        "title": "Three of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "3",
+        "description": "A young apprentice discussing his progress on a stone carving of three pentacles in a cathedral with a priest and a nobleman, who are listening to him intently",
+        "element": "Earth",
+        "uprightMeaning": "Collaboration, skill",
+        "reversedMeaning": "Lack of teamwork, poor planning",
+        "filename": "pentacles3"
+      },
+      {
+        "title": "Four of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "4",
+        "description": "A wealthy holding onto four pentacles tightly, symbolizing control and security",
+        "element": "Earth",
+        "uprightMeaning": "Security, stability",
+        "reversedMeaning": "Greed, materialism",
+        "filename": "pentacles4"
+      },
+      {
+        "title": "Five of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "5",
+        "description": "Two impoverished figures outside in the snow, suggesting hardship and poverty",
+        "element": "Earth",
+        "uprightMeaning": "Hardship, financial loss",
+        "reversedMeaning": "Recovery, isolation",
+        "filename": "pentacles5"
+      },
+      {
+        "title": "Six of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "6",
+        "description": "A wealthy figure giving coins to two beggars with one hand, and holding a scale in the other, symbolizing generosity and charity",
+        "element": "Earth",
+        "uprightMeaning": "Generosity, balance",
+        "reversedMeaning": "Selfishness, debt",
+        "filename": "pentacles6"
+      },
+      {
+        "title": "Seven of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "7",
+        "description": "A farmer assessing his bountiful crop of pentacles",
+        "element": "Earth",
+        "uprightMeaning": "Patience, investment",
+        "reversedMeaning": "Impatience, lack of growth",
+        "filename": "pentacles7"
+      },
+      {
+        "title": "Eight of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "8",
+        "description": "A person diligently working on crafting pentacles, indicating skill and dedication",
+        "element": "Earth",
+        "uprightMeaning": "Skill development, work",
+        "reversedMeaning": "Perfectionism, overwork",
+        "filename": "pentacles8"
+      },
+      {
+        "title": "Nine of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "9",
+        "description": "An elegantly dressed woman standing in a vineyard with nine pentacles, symbolizing self-sufficiency and luxury",
+        "element": "Earth",
+        "uprightMeaning": "Abundance, luxury",
+        "reversedMeaning": "Overexpenditure, financial setbacks",
+        "filename": "pentacles9"
+      },
+      {
+        "title": "Ten of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "10",
+        "description": "A family scene with ten pentacles in the foreground, suggesting financial security and heritage",
+        "element": "Earth",
+        "uprightMeaning": "Wealth, legacy",
+        "reversedMeaning": "Financial failure, loss",
+        "filename": "pentacles10"
+      },
+      {
+        "title": "Page of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "11",
+        "description": "A youthful figure holding a pentacle, symbolizing opportunity and manifestation",
+        "element": "Earth",
+        "uprightMeaning": "Opportunity, ambition",
+        "reversedMeaning": "Lack of progress, procrastination",
+        "filename": "pentacles11"
+      },
+      {
+        "title": "Knight of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "12",
+        "description": "A knight on a horse holding a pentacle, representing efficiency and routine",
+        "element": "Earth",
+        "uprightMeaning": "Diligence, responsibility",
+        "reversedMeaning": "Laziness, boredom",
+        "filename": "pentacles12"
+      },
+      {
+        "title": "Queen of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "13",
+        "description": "A queen sitting on a throne with a pentacle, symbolizing nurturing and practicality",
+        "element": "Earth",
+        "uprightMeaning": "Practicality, security",
+        "reversedMeaning": "Imbalance, neglect",
+        "filename": "pentacles13"
+      },
+      {
+        "title": "King of Pentacles",
+        "suit": "Pentacles",
+        "suitIndex": "14",
+        "description": "A king seated on a throne with symbols of wealth, indicating abundance and security",
+        "element": "Earth",
+        "uprightMeaning": "Wealth, stability",
+        "reversedMeaning": "Greed, indulgence",
+        "filename": "pentacles14"
+      },
+      {
+        "title": "Ace of Swords",
+        "suit": "Swords",
+        "suitIndex": "1",
+        "description": "A hand emerging from a cloud holding a sword, symbolizing mental clarity and new ideas",
+        "element": "Air",
+        "uprightMeaning": "Breakthrough, clarity",
+        "reversedMeaning": "Confusion, chaos",
+        "filename": "swords1"
+      },
+      {
+        "title": "Two of Swords",
+        "suit": "Swords",
+        "suitIndex": "2",
+        "description": "A blindfolded woman holding two crossed swords, indicating indecision and stalemate",
+        "element": "Air",
+        "uprightMeaning": "Indecision, choices",
+        "reversedMeaning": "Confusion, information overload",
+        "filename": "swords2"
+      },
+      {
+        "title": "Three of Swords",
+        "suit": "Swords",
+        "suitIndex": "3",
+        "description": "A heart pierced by three swords, symbolizing heartbreak and grief",
+        "element": "Air",
+        "uprightMeaning": "Heartbreak, sorrow",
+        "reversedMeaning": "Recovery, forgiveness",
+        "filename": "swords3"
+      },
+      {
+        "title": "Four of Swords",
+        "suit": "Swords",
+        "suitIndex": "4",
+        "description": "A carved figure of a knight lying in repose upon a stone tomb, hands pressed together as if in prayer; the wall is decorated with hanging swords and a stained glass window depicting a woman and child",
+        "element": "Air",
+        "uprightMeaning": "Rest, recovery, peace",
+        "reversedMeaning": "Restlessness, burnout",
+        "filename": "swords4"
+      },
+      {
+        "title": "Five of Swords",
+        "suit": "Swords",
+        "suitIndex": "5",
+        "description": "A figure with a contemptuous expression collecting swords dropped by his defeated enemies, who are sorrowfully retreating",
+        "element": "Air",
+        "uprightMeaning": "Conflict, tension",
+        "reversedMeaning": "Resolution, forgiveness",
+        "filename": "swords5"
+      },
+      {
+        "title": "Six of Swords",
+        "suit": "Swords",
+        "suitIndex": "6",
+        "description": "A boat carrying two huddled figures across water, symbolizing transition and change",
+        "element": "Air",
+        "uprightMeaning": "Transition, healing",
+        "reversedMeaning": "Stagnation, resistance",
+        "filename": "swords6"
+      },
+      {
+        "title": "Seven of Swords",
+        "suit": "Swords",
+        "suitIndex": "7",
+        "description": "A figure sneaking away with five swords, leaving two behind, indicating betrayal",
+        "element": "Air",
+        "uprightMeaning": "Deception, strategy",
+        "reversedMeaning": "Confession, conscience",
+        "filename": "swords7"
+      },
+      {
+        "title": "Eight of Swords",
+        "suit": "Swords",
+        "suitIndex": "8",
+        "description": "A blindfolded and bound figure surrounded by swords, symbolizing restriction and feeling trapped",
+        "element": "Air",
+        "uprightMeaning": "Restriction, powerless",
+        "reversedMeaning": "Freedom, release",
+        "filename": "swords8"
+      },
+      {
+        "title": "Nine of Swords",
+        "suit": "Swords",
+        "suitIndex": "9",
+        "description": "A figure sitting up in bed with hands covering their face, below a wall hung with swords",
+        "element": "Air",
+        "uprightMeaning": "Anxiety, worry",
+        "reversedMeaning": "Resilience, facing fears",
+        "filename": "swords9"
+      },
+      {
+        "title": "Ten of Swords",
+        "suit": "Swords",
+        "suitIndex": "10",
+        "description": "A figure lying face down with ten swords in their back, symbolizing betrayal and defeat",
+        "element": "Air",
+        "uprightMeaning": "Betrayal, endings",
+        "reversedMeaning": "Recovery, regeneration",
+        "filename": "swords10"
+      },
+      {
+        "title": "Page of Swords",
+        "suit": "Swords",
+        "suitIndex": "11",
+        "description": "A youthful figure holding a sword, symbolizing curiosity and vigilance",
+        "element": "Air",
+        "uprightMeaning": "Curiosity, alertness",
+        "reversedMeaning": "Deception, defensiveness",
+        "filename": "swords11"
+      },
+      {
+        "title": "Knight of Swords",
+        "suit": "Swords",
+        "suitIndex": "12",
+        "description": "A knight charging forward with a raised sword, indicating ambition and drive",
+        "element": "Air",
+        "uprightMeaning": "Action, ambition",
+        "reversedMeaning": "Hastiness, unpredictability",
+        "filename": "swords12"
+      },
+      {
+        "title": "Queen of Swords",
+        "suit": "Swords",
+        "suitIndex": "13",
+        "description": "A queen seated on a throne with a sword in her hand, symbolizing intellect and discernment",
+        "element": "Air",
+        "uprightMeaning": "Perception, honesty",
+        "reversedMeaning": "Cold-heartedness, manipulation",
+        "filename": "swords13"
+      },
+      {
+        "title": "King of Swords",
+        "suit": "Swords",
+        "suitIndex": "14",
+        "description": "A king holding a sword, indicating authority and truth",
+        "element": "Air",
+        "uprightMeaning": "Intellect, authority",
+        "reversedMeaning": "Tyranny, misuse of power",
+        "filename": "swords14"
+      },
+      {
+        "title": "Ace of Wands",
+        "suit": "Wands",
+        "suitIndex": "1",
+        "description": "A hand emerging from a cloud holding a wand, symbolizing inspiration and potential",
+        "element": "Fire",
+        "uprightMeaning": "Inspiration, new opportunities",
+        "reversedMeaning": "Delays, lack of motivation",
+        "filename": "wands1"
+      },
+      {
+        "title": "Two of Wands",
+        "suit": "Wands",
+        "suitIndex": "2",
+        "description": "A figure holding a globe, standing between two wands, indicating planning and decisions",
+        "element": "Fire",
+        "uprightMeaning": "Planning, decision making",
+        "reversedMeaning": "Fear of unknown, lack of planning",
+        "filename": "wands2"
+      },
+      {
+        "title": "Three of Wands",
+        "suit": "Wands",
+        "suitIndex": "3",
+        "description": "A figure looking out over the sea with three wands, suggesting exploration and foresight",
+        "element": "Fire",
+        "uprightMeaning": "Expansion, foresight",
+        "reversedMeaning": "Delays, lack of vision",
+        "filename": "wands3"
+      },
+      {
+        "title": "Four of Wands",
+        "suit": "Wands",
+        "suitIndex": "4",
+        "description": "A wedding scene depicting a celebrating couple beneath a canopy of four wands hung with floral garlands",
+        "element": "Fire",
+        "uprightMeaning": "Celebration, harmony",
+        "reversedMeaning": "Tension, breakdown of communication",
+        "filename": "wands4"
+      },
+      {
+        "title": "Five of Wands",
+        "suit": "Wands",
+        "suitIndex": "5",
+        "description": "Figures holding wands in a mock battle, symbolizing conflict and competition",
+        "element": "Fire",
+        "uprightMeaning": "Conflict, competition",
+        "reversedMeaning": "Avoidance of conflict, harmony",
+        "filename": "wands5"
+      },
+      {
+        "title": "Six of Wands",
+        "suit": "Wands",
+        "suitIndex": "6",
+        "description": "A figure riding a horse, holding a wand with a laurel wreath, symbolizing victory",
+        "element": "Fire",
+        "uprightMeaning": "Victory, recognition",
+        "reversedMeaning": "Fall from grace, lack of recognition",
+        "filename": "wands6"
+      },
+      {
+        "title": "Seven of Wands",
+        "suit": "Wands",
+        "suitIndex": "7",
+        "description": "A figure standing on higher ground defending against attackers, indicating perseverance",
+        "element": "Fire",
+        "uprightMeaning": "Defense, perseverance",
+        "reversedMeaning": "Giving up, overwhelmed",
+        "filename": "wands7"
+      },
+      {
+        "title": "Eight of Wands",
+        "suit": "Wands",
+        "suitIndex": "8",
+        "description": "Wands flying through the air, symbolizing speed and progress",
+        "element": "Fire",
+        "uprightMeaning": "Speed, progress",
+        "reversedMeaning": "Delays, slowed progress",
+        "filename": "wands8"
+      },
+      {
+        "title": "Nine of Wands",
+        "suit": "Wands",
+        "suitIndex": "9",
+        "description": "A weary figure with a bandage standing guard, symbolizing resilience and persistence",
+        "element": "Fire",
+        "uprightMeaning": "Resilience, persistence",
+        "reversedMeaning": "Exhaustion, refusal to compromise",
+        "filename": "wands9"
+      },
+      {
+        "title": "Ten of Wands",
+        "suit": "Wands",
+        "suitIndex": "10",
+        "description": "A figure carrying a heavy burden of wands, indicating stress and responsibility",
+        "element": "Fire",
+        "uprightMeaning": "Burden, responsibility",
+        "reversedMeaning": "Relief, letting go",
+        "filename": "wands10"
+      },
+      {
+        "title": "Page of Wands",
+        "suit": "Wands",
+        "suitIndex": "11",
+        "description": "A youthful figure holding a wand, symbolizing enthusiasm and discovery",
+        "element": "Fire",
+        "uprightMeaning": "Enthusiasm, exploration",
+        "reversedMeaning": "Lack of direction, pessimism",
+        "filename": "wands11"
+      },
+      {
+        "title": "Knight of Wands",
+        "suit": "Wands",
+        "suitIndex": "12",
+        "description": "A knight riding a horse with a wand, indicating energy and pursuit",
+        "element": "Fire",
+        "uprightMeaning": "Adventure, energy",
+        "reversedMeaning": "Impulsiveness, recklessness",
+        "filename": "wands12"
+      },
+      {
+        "title": "Queen of Wands",
+        "suit": "Wands",
+        "suitIndex": "13",
+        "description": "A queen seated on a throne with a wand, representing warmth and vibrancy",
+        "element": "Fire",
+        "uprightMeaning": "Confidence, warmth",
+        "reversedMeaning": "Jealousy, introversion",
+        "filename": "wands13"
+      },
+      {
+        "title": "King of Wands",
+        "suit": "Wands",
+        "suitIndex": "14",
+        "description": "A king holding a wand, symbolizing leadership and vision",
+        "element": "Fire",
+        "uprightMeaning": "Leadership, vision",
+        "reversedMeaning": "Tyranny, impulsiveness",
+        "filename": "wands14"
+      }
+    ]
+  }
+}
