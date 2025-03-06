@@ -1,3 +1,5 @@
+# flask --app app_psycop2_db run
+
 from flask import Flask, jsonify, request
 import os, psycopg2, json, requests
 
@@ -9,12 +11,12 @@ with open('decks.json') as f:
 databaseUrl = os.environ['DATABASE_URL']
 conn = psycopg2.connect(databaseUrl)
 
-class Pull(db.Model):
-    id = db.Column(db.String(20), primary_key=True)
-    spread_type = db.Column(db.String(20), unique=False, nullable=False)
-    number_of_cards = db.Column(db.Integer, nullable=False)
-    intention = db.Column(db.String(100), unique=False, nullable=False)
-    created_time = db.Column(db.DateTime, unique=False, nullable=False)
+# class Pull(db.Model):
+#     id = db.Column(db.String(20), primary_key=True)
+#     spread_type = db.Column(db.String(20), unique=False, nullable=False)
+#     number_of_cards = db.Column(db.Integer, nullable=False)
+#     intention = db.Column(db.String(100), unique=False, nullable=False)
+#     created_time = db.Column(db.DateTime, unique=False, nullable=False)
 
 
 

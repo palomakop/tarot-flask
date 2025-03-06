@@ -59,7 +59,7 @@ def index():
 #     "intention":"What will the weather be tomorrow?", # a user defined string, optional
 # }
 
-@app.route('/create-pull', methods=['POST'])
+@app.route('/pull/new', methods=['POST'])
 def createPull():
     pullId = generateRandomString(10)
     pullDetails = request.json
@@ -92,7 +92,7 @@ def createPull():
 
     return jsonify({'message':pull,'success':'true'})
 
-@app.route('/get-pull/<string:id>', methods=['GET'])
+@app.route('/pull/<string:id>', methods=['GET'])
 def getPull(id):
     response = (
         supabase.table("pulls")
@@ -100,5 +100,5 @@ def getPull(id):
         .eq("id", id)
         .execute()
     )
-    print(response.json())
-    return jsonify(response.json())
+    pull = json.loads(response.json())['data'][0]['pull']
+    return jsonify({'message':pull,'success':'true'})
