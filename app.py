@@ -2,8 +2,18 @@ from flask import Flask, jsonify, request
 from supabase import create_client, Client
 from datetime import datetime, timezone
 import os, psycopg2, json, requests, random, string
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+CORS(app, resources={
+    r"/*": {
+        "origins": [
+            "http://localhost:3000",
+            "https://subtle.cards",
+            r"https://.*\.netlify\.app"
+        ]
+    }
+})
 
 with open('decks.json') as f:
     decks = json.load(f)
