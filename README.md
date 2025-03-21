@@ -1,12 +1,22 @@
 # tarot-flask
 
-A Flask API to support a tarot web app.
+A Flask API backend for [Subtle Cards](https://subtle.cards), a tarot web app. Front end repo: [tarot-gui]()
+
+### [🎴 Live Demo](https://subtle.cards) | [🌝 Frontend repo](https://github.com/palomakop/tarot-gui)
 
 ## Setup
 
 Install Flask and create a Python virtual enviromnent according to the requirements in `requirements.txt`. If running on Heroku, this is done automatically.
 
-This project uses supabase as the database and the Random.org API for generating true random numbers based on atmospheric EMF. API keys for both, and the URL for a supabase instance, must be set as enviroment variables.
+This project uses Supabase as the database and the Random.org API for generating true random numbers based on atmospheric EMF. API keys for both, and the URL for a supabase instance, must be set as enviroment variables.
+
+The database table called `pulls` needs the following columns:
+
+| Name | Format | Description  |
+| ------- | --- | --- |
+| id | text | A unique identifier |
+| created_at | timestamptz | Timestamp |
+| pull | jsonb | Data about the card pull in JSON format |
 
 To run the project in a development environment, use `flask run` from the project folder after activating the virtual environment.
 
